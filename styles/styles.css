@@ -1,0 +1,24 @@
+header {
+  background-color: #003d64;
+}
+
+footer {
+  background-color: #3d3d3e;
+}
+
+.adoptadog-logo-header {
+  width: 25%;
+}
+
+.adoptadog-logo-footer {
+  width: 25%;
+}
+
+h2 {
+  color: #70ba22;
+}
+
+button {
+  color: white;
+  background-color: #71ba22;
+}
