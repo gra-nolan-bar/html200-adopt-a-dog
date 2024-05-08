@@ -7,13 +7,11 @@
     <title>Adopt-a-Dog - Dogs</title>
   </head>
   <body>
-    <header>
-      <img class="adoptadog-logo-header" src="images/adoptadog-logo.svg" alt="adopt a dog logo">
-      <h2>Seattle's premiere dog adoption agency</h2>
-      <aside>
-        <nav>checkout cart and <button>Checkout</button></nav>
-      </aside>
-    </header>
+    <header class="header-banner">
+      <div>
+        <img class="adoptadog-logo-header" src="images/adoptadog-logo.svg" alt="adopt a dog logo">
+        <h2>Seattle's premiere dog adoption agency</h2>
+      </div>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -21,130 +19,139 @@
           <li><a href="blog-page.html">Blog</a></li>
         </ul>
       </nav>
+      <aside>
+        <nav>
+          <img class="cart-icon" src="images/cart-icon.svg" alt="cart icon"> 
+          <form  action="checkout-page.html">
+            <input class="checkout-button" type="submit" value="Checkout">
+          </form>
+        </nav>
+      </aside>
+    </header>
     <main>
         <h2>Here are all of our Dogs!</h2>
-
-        <article>
-          <img src="images/angus-card.jpg" alt="missing image">
-          <h3>Name of dog</h3>
-          <p>Cost to adopt: $123.45</p>
-          <p>
-            This dog smells like goat cheese and fresh pineapples. Do you think
-            this is the one? Adopt this dog now!
-          </p>
-          <button>Adopt</button>
-        </article>
-        <article>
-          <img src="images/duffy-card.jpg" alt="missing image">
-          <h3>Name of dog</h3>
-          <p>Cost to adopt: $123.45</p>
-          <p>
-            This dog smells like goat cheese and fresh pineapples. Do you think
-            this is the one? Adopt this dog now!
-          </p>
-          <button>Adopt</button>
-        </article>
-        <article>
-          <img src="images/jack-card.jpg" alt="missing image">
-          <h3>Name of dog</h3>
-          <p>Cost to adopt: $123.45</p>
-          <p>
-            This dog smells like goat cheese and fresh pineapples. Do you think
-            this is the one? Adopt this dog now!
-          </p>
-          <button>Adopt</button>
-        </article>
-        <article>
-          <img src="images/jake-card.jpg" alt="missing image">
-          <h3>Name of dog</h3>
-          <p>Cost to adopt: $123.45</p>
-          <p>
-            This dog smells like goat cheese and fresh pineapples. Do you think
-            this is the one? Adopt this dog now!
-          </p>
-          <button>Adopt</button>
-        </article>
-        <article>
-          <img src="images/lucas-card.jpg" alt="missing image">
-          <h3>Name of dog</h3>
-          <p>Cost to adopt: $123.45</p>
-          <p>
-            This dog smells like goat cheese and fresh pineapples. Do you think
-            this is the one? Adopt this dog now!
-          </p>
-          <button>Adopt</button>
-        </article>
-        <article>
-          <img src="images/luna-card.jpg" alt="missing image">
-          <h3>Name of dog</h3>
-          <p>Cost to adopt: $123.45</p>
-          <p>
-            This dog smells like goat cheese and fresh pineapples. Do you think
-            this is the one? Adopt this dog now!
-          </p>
-          <button>Adopt</button>
-        </article>
-        <article>
-          <img src="images/maximus-card.jpg" alt="missing image">
-          <h3>Name of dog</h3>
-          <p>Cost to adopt: $123.45</p>
-          <p>
-            This dog smells like goat cheese and fresh pineapples. Do you think
-            this is the one? Adopt this dog now!
-          </p>
-          <button>Adopt</button>
-        </article>
-        <article>
-          <img src="images/murphy-card.jpg" alt="missing image">
-          <h3>Name of dog</h3>
-          <p>Cost to adopt: $123.45</p>
-          <p>
-            This dog smells like goat cheese and fresh pineapples. Do you think
-            this is the one? Adopt this dog now!
-          </p>
-          <button>Adopt</button>
-        </article>
-        <article>
-          <img src="images/piper-card.jpg" alt="missing image">
-          <h3>Name of dog</h3>
-          <p>Cost to adopt: $123.45</p>
-          <p>
-            This dog smells like goat cheese and fresh pineapples. Do you think
-            this is the one? Adopt this dog now!
-          </p>
-          <button>Adopt</button>
-        </article>
-        <article>
-          <img src="images/poppy-card.jpg" alt="missing image">
-          <h3>Name of dog</h3>
-          <p>Cost to adopt: $123.45</p>
-          <p>
-            This dog smells like goat cheese and fresh pineapples. Do you think
-            this is the one? Adopt this dog now!
-          </p>
-          <button>Adopt</button>
-        </article>
-        <article>
-          <img src="images/stella-card.jpg" alt="missing image">
-          <h3>Name of dog</h3>
-          <p>Cost to adopt: $123.45</p>
-          <p>
-            This dog smells like goat cheese and fresh pineapples. Do you think
-            this is the one? Adopt this dog now!
-          </p>
-          <button>Adopt</button>
-        </article>
-        <article>
-          <img src="images/violet-card.jpg" alt="missing image">
-          <h3>Name of dog</h3>
-          <p>Cost to adopt: $123.45</p>
-          <p>
-            This dog smells like goat cheese and fresh pineapples. Do you think
-            this is the one? Adopt this dog now!
-          </p>
-          <button>Adopt</button>
-        </article>
-
+        <div class="dog-list-container">
+          <article class="dog-box">
+            <img class="dog-profile-photo" src="images/angus-card.jpg" alt="missing image">
+            <h3>Name of dog</h3>
+            <p>Cost to adopt: $123.45</p>
+            <p>
+              This dog smells like goat cheese and fresh pineapples. Do you think
+              this is the one? Adopt this dog now!
+            </p>
+            <button>Adopt</button>
+          </article>
+          <article class="dog-box">
+            <img class="dog-profile-photo" src="images/duffy-card.jpg" alt="missing image">
+            <h3>Name of dog</h3>
+            <p>Cost to adopt: $123.45</p>
+            <p>
+              This dog smells like goat cheese and fresh pineapples. Do you think
+              this is the one? Adopt this dog now!
+            </p>
+            <button>Adopt</button>
+          </article>
+          <article class="dog-box">
+            <img class="dog-profile-photo" src="images/jack-card.jpg" alt="missing image">
+            <h3>Name of dog</h3>
+            <p>Cost to adopt: $123.45</p>
+            <p>
+              This dog smells like goat cheese and fresh pineapples. Do you think
+              this is the one? Adopt this dog now!
+            </p>
+            <button>Adopt</button>
+          </article>
+          <article class="dog-box">
+            <img class="dog-profile-photo" src="images/jake-card.jpg" alt="missing image">
+            <h3>Name of dog</h3>
+            <p>Cost to adopt: $123.45</p>
+            <p>
+              This dog smells like goat cheese and fresh pineapples. Do you think
+              this is the one? Adopt this dog now!
+            </p>
+            <button>Adopt</button>
+          </article>
+          <article class="dog-box">
+            <img class="dog-profile-photo" src="images/lucas-card.jpg" alt="missing image">
+            <h3>Name of dog</h3>
+            <p>Cost to adopt: $123.45</p>
+            <p>
+              This dog smells like goat cheese and fresh pineapples. Do you think
+              this is the one? Adopt this dog now!
+            </p>
+            <button>Adopt</button>
+          </article>
+          <article class="dog-box">
+            <img class="dog-profile-photo" src="images/luna-card.jpg" alt="missing image">
+            <h3>Name of dog</h3>
+            <p>Cost to adopt: $123.45</p>
+            <p>
+              This dog smells like goat cheese and fresh pineapples. Do you think
+              this is the one? Adopt this dog now!
+            </p>
+            <button>Adopt</button>
+          </article>
+          <article class="dog-box">
+            <img class="dog-profile-photo" src="images/maximus-card.jpg" alt="missing image">
+            <h3>Name of dog</h3>
+            <p>Cost to adopt: $123.45</p>
+            <p>
+              This dog smells like goat cheese and fresh pineapples. Do you think
+              this is the one? Adopt this dog now!
+            </p>
+            <button>Adopt</button>
+          </article>
+          <article class="dog-box">
+            <img class="dog-profile-photo" src="images/murphy-card.jpg" alt="missing image">
+            <h3>Name of dog</h3>
+            <p>Cost to adopt: $123.45</p>
+            <p>
+              This dog smells like goat cheese and fresh pineapples. Do you think
+              this is the one? Adopt this dog now!
+            </p>
+            <button>Adopt</button>
+          </article>
+          <article class="dog-box">
+            <img class="dog-profile-photo" src="images/piper-card.jpg" alt="missing image">
+            <h3>Name of dog</h3>
+            <p>Cost to adopt: $123.45</p>
+            <p>
+              This dog smells like goat cheese and fresh pineapples. Do you think
+              this is the one? Adopt this dog now!
+            </p>
+            <button>Adopt</button>
+          </article>
+          <article class="dog-box">
+            <img class="dog-profile-photo" src="images/poppy-card.jpg" alt="missing image">
+            <h3>Name of dog</h3>
+            <p>Cost to adopt: $123.45</p>
+            <p>
+              This dog smells like goat cheese and fresh pineapples. Do you think
+              this is the one? Adopt this dog now!
+            </p>
+            <button>Adopt</button>
+          </article>
+          <article class="dog-box">
+            <img class="dog-profile-photo" src="images/stella-card.jpg" alt="missing image">
+            <h3>Name of dog</h3>
+            <p>Cost to adopt: $123.45</p>
+            <p>
+              This dog smells like goat cheese and fresh pineapples. Do you think
+              this is the one? Adopt this dog now!
+            </p>
+            <button>Adopt</button>
+          </article>
+          <article class="dog-box">
+            <img class="dog-profile-photo" src="images/violet-card.jpg" alt="missing image">
+            <h3>Name of dog</h3>
+            <p>Cost to adopt: $123.45</p>
+            <p>
+              This dog smells like goat cheese and fresh pineapples. Do you think
+              this is the one? Adopt this dog now!
+            </p>
+            <button>Adopt</button>
+          </article>
+        </div>
     </main>
     <footer>
       <img class="adoptadog-logo-footer" src="images/adoptadog-logo.svg" alt="adopt a dog logo">
@@ -153,9 +160,11 @@
         and logo in footer.
       </p>
       <nav>
-        <li>Home</li>
-        <li>Dogs</li>
-        <li>Blog</li>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dog-page.html">Dogs</a></li>
+          <li><a href="blog-page.html">Blog</a></li>
+        </ul>
       </nav>
       <address>address info</address>
     </footer>
