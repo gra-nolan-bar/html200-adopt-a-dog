@@ -1,7 +1,3 @@
-* {
-  margin: 1px;
-}
-
 .header-banner {
   display: flex;
   align-items: center;
@@ -90,12 +86,14 @@ h2 {
   padding-bottom: 1rem;
   padding-left: 0;
   max-width: 10.5rem;
-  box-sizing: content-box;
+  /* box-sizing: content-box; 
+  may be causing issues?  */
 }
 
 .dog-profile-photo {
   width: 10.5rem;
-  box-sizing: border-box;
+  /* box-sizing: border-box; 
+  may be causing issues?  */
 }
 
 .blog-container {
@@ -118,4 +116,40 @@ h2 {
   flex: 1 1 auto;
   flex-basis: 75%;
   padding: 1rem 1rem 1rem 1rem;
+}
+
+.first-time {
+  border: none;
+}
+
+.name-address {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.pickup-location {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.about-yourself {
+  display: block;
+}
+
+.form-buttons {
+  display: block;
+  margin: 1rem 0 1rem 0;
+}
+
+.submit-button {
+  display: inline-block;
+  margin: 0 1rem 0 0;
+}
+
+.contact-main-content {
+  margin-left: 1rem;
+}
+
+.first-time {
+  margin-left: -1rem;
 }
