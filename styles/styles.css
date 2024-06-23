@@ -36,6 +36,10 @@ ul {
   padding: 0;
 }
 
+h1 {
+  color: #70ba22;
+}
+
 h2 {
   color: #70ba22;
 }
@@ -100,22 +104,24 @@ h2 {
   display: flex;
   flex-flow: row nowrap;
   margin: 1rem 1rem 1rem 0rem;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 0rem;
 }
 
 .blog-photo {
-  flex: 1 1 auto;
-  flex-basis: 25%;
+  flex: 1 1 25%;
   width: 100%;
   height: 100%;
   min-width: 150px;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 0rem;
 }
 
 .blog-text-box {
-  flex: 1 1 auto;
-  flex-basis: 75%;
-  padding: 1rem 1rem 1rem 1rem;
+  flex: 1 1 75%;
+  padding: 0rem 4rem 1rem 0rem;
+}
+
+.dynamic-blog-posts {
+  margin-left: 1rem;
 }
 
 .first-time {
